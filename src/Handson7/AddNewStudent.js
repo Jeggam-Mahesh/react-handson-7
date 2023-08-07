@@ -20,7 +20,7 @@ import {useSelector} from 'react-redux'
         console.log(Name)
         console.log(Age);
         dispatch(AddStudent({
-            Id:studentList.length,
+            id:studentList.length+1,
             Name,
             Age,
             Batch,
